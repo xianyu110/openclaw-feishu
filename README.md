@@ -1,16 +1,16 @@
-# Clawdbot安装教程：从零开始到接入飞书
+# **Clawdbot安装教程：从零开始到接入飞书！**
 
 这几天，Clawdbot把整个科技圈都刷屏了。
 
 就是这个胖逼小龙虾🦞。
 
-![图片](https://upload.maynor1024.live/file/1769832788875_image_1.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjGQXdCP7aUib3cQlkpTFyqLfZaSVO4o5NQS3d8Jk8ibbau7T9kQSaBjhQ/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)图片
 
 不过现在改名叫Moltbot了。
 
 原因很简单：被Anthropic告了。
 
-![图片](https://upload.maynor1024.live/file/1769832795345_image_2.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjqx5iaoMgY9LXotV1MC2wOJDAAKOlPx9rybb8T5ibjUKDgmiaU0SPV0y5w/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1)图片
 
 Anthropic觉得Clawdbot这名字太像Claude Code的延伸产品，要求改名。
 
@@ -18,23 +18,24 @@ Anthropic觉得Clawdbot这名字太像Claude Code的延伸产品，要求改名�
 
 更离谱的是，因为Clawdbot太火，Mac Mini都被抢断货了。
 
-![图片](https://upload.maynor1024.live/file/1769832796939_image_3.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnja8tNDxOKzJsPxichINVaYeE3ItWrTO5blKxldiakF44iafmZw227mThAw/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=2)图片
 
 无数人为了用它，疯狂买Mac Mini。
 
-![图片](https://upload.maynor1024.live/file/1769832802216_image_4.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjS9JF49amtp28HEDnOjhY46ngsP8gvEhgdOicfXXcTU2hBKGfWdL1N9A/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=3)图片
 
 我刚打开美团外卖，发现居然没货了？？？
 
-![图片](https://upload.maynor1024.live/file/1769832807014_image_5.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjap8HTd9Hniaub2a091xPPJJTgJeyQia0hF6GtLh30pDrtXMXVCR9uTxA/640?wx_fmt=jpeg&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=4)图片
 
----
+------
 
-## 为什么这么多人买Mac Mini？
+## **为什么这么多人买Mac Mini？**
 
 Clawdbot是个本地AI助手，权限极高，主动性极强。
 
 它能：
+
 - 直接改你本地文件
 - 帮你炒股
 - 处理邮件
@@ -42,7 +43,7 @@ Clawdbot是个本地AI助手，权限极高，主动性极强。
 
 官方定义：一个"在你自己设备上运行的个人AI助理"。
 
-![图片](https://upload.maynor1024.live/file/1769832812619_image_6.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjOlmDGoykLv9oaBqy4vh8bicpwlldOVJdJA0fYw3osPm7f84qYTnNJaw/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=5)图片
 
 看着跟Claude Code有点像，但Claude Code因为名字，大家更把它当编程工具。
 
@@ -53,17 +54,19 @@ Clawdbot就没这个顾虑，定位更通用。
 因为它是本地运行，权限极高，主动性又强，所以风险很大。
 
 你随口一句话，它可能：
+
 - 发个社死的朋友圈
 - 把你文件删了
 - 把你钱花完了
 
 比如我今天在朋友圈看到的案例：
 
-![图片](https://upload.maynor1024.live/file/1769832823143_image_7.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjqZM0vU7Pg6rZas9ibgBZ3xgkeXfEicFp9ibh2fBW9aRxS39R5zdiatEm3w/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=6)图片
 
 这风险，绝大多数人承受不起。
 
 所以大家选择两种做法：
+
 1. 买台新电脑专门跑Clawdbot
 2. 上云服务或虚拟机部署
 
@@ -71,7 +74,7 @@ Clawdbot就没这个顾虑，定位更通用。
 
 腾讯云倒是反应快，直接提供了一键服务：
 
-![图片](https://upload.maynor1024.live/file/1769832824537_image_8.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnj6HATq8w1bL0ctDtukkZsQlXLXxMnibAUjWxpd5jSRYxCrDvtoRcQ8Eg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=7)图片
 
 这时候，买台Mac Mini反而成了最简单的做法。
 
@@ -91,9 +94,9 @@ Clawdbot就没这个顾虑，定位更通用。
 
 我真觉得，Mac Mini这波热度有点不正常...
 
----
+------
 
-## Clawdbot vs Claude Code
+## **Clawdbot vs Claude Code**
 
 Clawdbot大部分能力跟Claude Code一样，但有几个区别：
 
@@ -127,11 +130,11 @@ Clawdbot大部分能力跟Claude Code一样，但有几个区别：
 
 Github上已经6万3的Star了，增长曲线极其离谱。
 
-![图片](https://upload.maynor1024.live/file/1769832832765_image_9.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjYxOk7laha8AC8WeX3z8w5N6qiaJ8iaOc3DeaViay1dickVVKPqcdiadwqjQ/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=8)图片
 
----
+------
 
-## 开始安装
+## **开始安装**
 
 部署这玩意，说简单也简单，说麻烦也麻烦。
 
@@ -155,9 +158,9 @@ Mac部署和Windows部署完全不是一个难度级别。
 
 千万别到时候重要文件被删了然后来骂我...
 
----
+------
 
-## 第一步：安装Clawdbot
+## **第一步：安装Clawdbot**
 
 一行命令就行，很简单。
 
@@ -165,7 +168,7 @@ Mac部署和Windows部署完全不是一个难度级别。
 
 我这里选择Windows进行部署测试。
 
-```bash
+```
 # Windows安装
 iwr -useb https://molt.bot/install.ps1 | iex
 
@@ -177,11 +180,11 @@ curl -fsSL https://molt.bot/install.sh | bash -s -- --install-method git
 
 然后你就能看到它开始安装了。
 
-![图片](https://upload.maynor1024.live/file/1769832836143_image_10.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjkacjXh6jj7x8IiakjHWD3INzeYun4BYDEdthWD5jErZvY2MuL4OyIyg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=9)图片
 
 安装好后，会出现这个：
 
-![图片](https://upload.maynor1024.live/file/1769832834511_image_11.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjDibJl15Gx1DZvG9guQOzPpMNmJRuEXAFOgVD45iaZleoVH0ko8ysxU7A/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=10)图片
 
 问你选yes还是no。
 
@@ -193,11 +196,11 @@ curl -fsSL https://molt.bot/install.sh | bash -s -- --install-method git
 
 也是非常的霸王条款...
 
-![图片](https://upload.maynor1024.live/file/1769832838252_image_12.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjbdOxsd730QUj7LKZDrGruFRicHicU7v5vEW360dL6IYwKDDKCib2emZuw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=11)图片
 
 选yes后，会看到一个选项：
 
-![图片](https://upload.maynor1024.live/file/1769832843331_image_13.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjSzice5sJ5BJ2pwXphr9zd4ibtHBvSc3r1y06NJrskS3kQG71iawwWYERg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=12)图片
 
 第一个是快速启动，后续通过 `clawdbot configure` 配置信息。
 
@@ -205,13 +208,13 @@ curl -fsSL https://molt.bot/install.sh | bash -s -- --install-method git
 
 我们选第一个。
 
----
+------
 
-## 第二步：配置模型
+## **第二步：配置模型**
 
 然后它会让你配置模型。
 
-![图片](https://upload.maynor1024.live/file/1769832846889_image_14.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjfXrzFu92iboyFnchCCRSbIIMel4xNiaHB2BL1wicePmZ6lVoc6CDlIPNQ/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=13)图片
 
 我是ChatGPT Pro会员，可以直接用Codex OAuth。
 
@@ -234,6 +237,7 @@ Anthropic现在只准那个额度在Claude Code上用。
 推荐：**https://apipro.maynor1024.live/**
 
 **优势：**
+
 - ✅ 国内直连，无需魔法
 - ✅ 价格便宜，比官方便宜50%-70%
 - ✅ 支持支付宝、微信支付
@@ -253,14 +257,14 @@ Anthropic现在只准那个额度在Claude Code上用。
 
 安装完成后，编辑配置文件：
 
-```bash
+```
 # 打开配置文件
 nano ~/.clawdbot/clawdbot.json
 ```
 
 在配置文件中添加：
 
-```json
+```
 {
   "models": {
     "mode": "merge",
@@ -301,7 +305,7 @@ nano ~/.clawdbot/clawdbot.json
 
 **3. 重启Gateway**
 
-```bash
+```
 clawdbot gateway restart
 ```
 
@@ -310,18 +314,20 @@ clawdbot gateway restart
 打开Web UI，发送测试消息，查看右上角是否显示正确的模型名称。
 
 **配置要点：**
+
 - ⚠️ `baseUrl` 不要包含 `/v1` 后缀（SDK会自动添加）
 - ⚠️ 模型ID格式必须是 `provider名称/模型ID`
 - ⚠️ 使用 `mode: "merge"` 可以保留内置模型
 - ⚠️ 配置后必须重启Gateway才能生效
 
 **费用参考：**
+
 - 简单对话：约 ¥5-10/月
 - 文件处理：约 ¥15-30/月
 - 代码生成：约 ¥30-60/月
 - 重度使用：约 ¥150-300/月
 
----
+------
 
 **提醒一句**：
 
@@ -331,7 +337,7 @@ clawdbot gateway restart
 
 我们有个小伙伴，用GLM-4.7跑了两天，直接烧了将近3000万Token...
 
-![图片](https://upload.maynor1024.live/file/1769832855382_image_15.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjM4ESFCH0L0Xc5s03XAnASqwV5qdEKTxwxcYFwCXWH45tCPgRwna2xQ/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=14)图片
 
 不敢想象，要是换成Claude的API，估计得卖房才供得起这玩意24小时烧Token...
 
@@ -339,13 +345,13 @@ clawdbot gateway restart
 
 真的，太离谱了。
 
----
+------
 
-## 第三步：选择频道
+## **第三步：选择频道**
 
 配置好模型后，会让你选择聊天频道。
 
-![图片](https://upload.maynor1024.live/file/1769832860094_image_16.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjV6bXmZKvibySnyDT6upJ41H0eQpWVQYnqH2yo6tLSZteMPPWyM5TP3Q/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=15)图片
 
 这些全是海外的，我们用不了。
 
@@ -353,37 +359,37 @@ clawdbot gateway restart
 
 后面我会教你怎么用飞书来控制它。
 
----
+------
 
-## 第四步：配置Skills
+## **第四步：配置Skills**
 
 然后会问你要不要配置技能。
 
-![图片](https://upload.maynor1024.live/file/1769832863935_image_17.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjJVVjNkddVicEM9uHcgAlMjA2vTicA26uOBL7CEvjhLfY8K5tichZia5E8g/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=16)图片
 
 直接无脑Yes就行。
 
 然后会让你选择用什么管理器安装。
 
-![图片](https://upload.maynor1024.live/file/1769832872118_image_18.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjMEVllIT3ZjDsxkpDz84HLAVhwW4WstFgh2fCrUicicpgko4b0aAZwrAA/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=17)图片
 
 我一般用npm，装了Node.js就自动有npm命令了。
 
 再然后，会给你一堆Skills：
 
-![图片](https://upload.maynor1024.live/file/1769832874840_image_19.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnj7Iv8yFYCvMEE7KeSKpIS4u4QSLrTg03JaciatXMg02lx9KHbB0ia6Qkg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=18)图片
 
 每个后面都有描述，你可以挑喜欢的装。
 
 懒得挑，直接跳过也行，后续跟它对话也能装。
 
----
+------
 
-## 第五步：配置Hooks
+## **第五步：配置Hooks**
 
 继续下一步，会问你要不要配置hooks。
 
-![图片](https://upload.maynor1024.live/file/1769832874830_image_20.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjaK6s4ZvSAicf556BQb97wzlpeZcPbpSo2AFTNyCKlznMa06nSSVm1Sw/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=19)图片
 
 可以理解为三个插件：
 
@@ -395,21 +401,21 @@ clawdbot gateway restart
 
 我建议都开，都非常实用。
 
----
+------
 
-## 第六步：启动Clawdbot
+## **第六步：启动Clawdbot**
 
 终于，一切就绪！
 
 用这个命令启动：
 
-```bash
+```
 clawdbot gateway --verbose
 ```
 
 然后你就能看到一串代码。
 
-![图片](https://upload.maynor1024.live/file/1769832882469_image_21.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnj71qJXbwISTy3G39qtRUsSDVkafvMr9JiaWXxtF0yQ6oWZadPqEibibBFg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=20)图片
 
 一般端口默认是18789，所以你可以直接访问：
 
@@ -419,9 +425,9 @@ http://127.0.0.1:18789/chat
 
 然后就能看到亲切的小龙虾界面了！
 
----
+------
 
-## 第七步：接入飞书（重点！）
+## **第七步：接入飞书（重点！）**
 
 我相信所有人，肯定都想在手机端或别的聊天软件里用。
 
@@ -435,7 +441,7 @@ http://127.0.0.1:18789/chat
 
 https://github.com/m1heng/Clawdbot-feishu
 
-![图片](https://upload.maynor1024.live/file/1769832889336_image_22.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjuAAicC4hHEUIoAqKGhFn32uYJU0ZlWoapyl1v77Ls0iaLSHMJIuHnUew/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=21)图片
 
 **我的第一次尝试：失败**
 
@@ -445,7 +451,7 @@ https://github.com/m1heng/Clawdbot-feishu
 
 给人都整麻了，一直报错、一直安装失败...
 
-![图片](https://upload.maynor1024.live/file/1769832889244_image_23.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjJmvib94cYgmy8JvibwxnBoPWjDNMXExCibCialFRnCBNNicXFStlzYyv50w/640?wx_fmt=jpeg&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=22)图片
 
 我当时都快疯了。
 
@@ -467,19 +473,19 @@ https://github.com/m1heng/Clawdbot-feishu
 
 它居然真的给自己装好了！
 
-![图片](https://upload.maynor1024.live/file/1769832890376_image_24.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjrIz0ic92FTXdcAlRyzS0Kjfj3NoSiabw2ibpKyKRukjF3SH0b0WphxHRw/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=23)图片
 
 那我刚才那一两个小时的折腾，到底算什么...
 
----
+------
 
-## 配置飞书机器人
+## **配置飞书机器人**
 
 它说装好后，还需要去飞书开放平台（open.feishu.cn）建个应用。
 
 把App ID和App Secret记下来，接下来要用。
 
-![图片](https://upload.maynor1024.live/file/1769832898559_image_25.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjdhXDmBQCc04QmUiapBUV0KtuMwSWdkIlRld86y9Zx0xAI7QiaFgbz0Uw/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=24)图片
 
 然后最骚的操作来了...
 
@@ -487,13 +493,13 @@ https://github.com/m1heng/Clawdbot-feishu
 
 没错，它会自己看着办，把剩下的配置全给你搞定。
 
-![图片](https://upload.maynor1024.live/file/1769832907324_image_26.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjEIUD0gB6DkYVKu1oLcJH11eYP0SBepuEnXrWZHia16HQZ2iaSiaKDkKnA/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=25)图片
 
 真的，爽到爆炸。
 
----
+------
 
-## 飞书开放平台设置
+## **飞书开放平台设置**
 
 然后就是飞书开放平台自己的一些设置了。
 
@@ -501,31 +507,31 @@ https://github.com/m1heng/Clawdbot-feishu
 
 大家先把机器人加入进去：
 
-![图片](https://upload.maynor1024.live/file/1769832911773_image_27.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjRDthJcVrv869TeYAHcNewibsdxobynNQGXnfGNQ9ypMkqd53RBEgqIg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=26)图片
 
 接下来开启一些必要的权限，GitHub中作者也有讲到：
 
-![图片](https://upload.maynor1024.live/file/1769832918082_image_28.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjWQnMKQN6NEDQMibZS4lKn8RTCCdibsnd5YO1RpLmibKd6C7mx7bp9ER2g/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=27)图片
 
-![图片](https://upload.maynor1024.live/file/1769832924864_image_29.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjSxv2gZkLBBBmeaFHMGsAeJOtOMf8DDg9mhQF27CrtmH6U0ts0iaicppw/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=28)图片
 
 然后，把下面这些也都配置上：
 
-![图片](https://upload.maynor1024.live/file/1769832932841_image_30.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjTF1aOYMZFqpUX1mngB9P8An8TWFnoz7FwbeKAN6uic2Gxefyc3UGkTg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=29)图片
 
 最后，一切大功告成！
 
 然后你就进行发布：
 
-![图片](https://upload.maynor1024.live/file/1769832934727_image_31.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjwFQZibMus0yBibeRnbwT3VjUSswGIzibGgHqRyC2icb63OotsrpaGYSQZg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=30)图片
 
 就可以在飞书里面，跟它畅聊了。
 
-![图片](https://upload.maynor1024.live/file/1769832935284_image_32.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjC7a5xeDSG3icPKCEOICW0vLicA5qV9b4H0Jcqc8IrU2947XczK9GvyTA/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=31)图片
 
----
+------
 
-## 实际使用体验
+## **实际使用体验**
 
 配置完后，因为是测试机，其实没啥文件。
 
@@ -538,6 +544,7 @@ https://github.com/m1heng/Clawdbot-feishu
 现在，只需在飞书给它下个令。
 
 它便会在后台一顿操作：
+
 - 打开本地文件
 - 读取内容
 - 自动填充Excel
@@ -546,9 +553,9 @@ https://github.com/m1heng/Clawdbot-feishu
 
 虽说干得有点糙，但有那味了。
 
-![图片](https://upload.maynor1024.live/file/1769832946272_image_33.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnjczr4Gc8JuE1BzYVQ1A7g8GdDWKfibwx8BrwOOias9BpRrNdV73ibwJn3A/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=32)图片
 
-![图片](https://upload.maynor1024.live/file/1769832945929_image_34.jpg)
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/CicCuQbJHxpyuWIa0sSHhHYFrrHNWEXnj1Eb7knBmoEMURO2TxtyibmZ3edfPo1YnHj1JtHul1bPEJfiapJEsknibg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=33)图片
 
 非常有意思。
 
@@ -558,9 +565,9 @@ https://github.com/m1heng/Clawdbot-feishu
 
 还是相当好玩的。
 
----
+------
 
-## 我的真实感受
+## **我的真实感受**
 
 说实话，Clawdbot的火爆，其实是大家对AI进场干活的一种极度渴望。
 
@@ -594,9 +601,9 @@ https://github.com/m1heng/Clawdbot-feishu
 
 这种感觉，真的很上头，也很魔幻。
 
----
+------
 
-## 我真正想说的
+## **我真正想说的**
 
 你在把钥匙交出去之前，一定要先想好：
 
@@ -619,11 +626,3 @@ Clawdbot确实蛮有意思，也很上头。
 这其实看的，也是你真正的管理、还有用人的能力。
 
 在想清楚之后，也愿我们，对世界永远保持好奇。
-
----
-
-**以上，既然看到这里了，如果觉得不错，随手点个赞、在看、转发三连吧。**
-
-**如果想第一时间收到推送，也可以给我个星标⭐～**
-
-**谢谢你看我的文章，我们，下次再见。**
