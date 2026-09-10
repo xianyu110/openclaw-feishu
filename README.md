@@ -236,7 +236,7 @@ Anthropic现在只准那个额度在Claude Code上用。
 
 如果你不想用官方API（需要魔法、价格贵、支付麻烦），可以用第三方API中转。
 
-推荐：**https://apipro.maynor1024.live/**
+推荐：**https://tryallapi.com/**
 
 **优势：**
 
@@ -250,7 +250,7 @@ Anthropic现在只准那个额度在Claude Code上用。
 
 **1. 注册并获取API Key**
 
-- 访问：https://apipro.maynor1024.live/
+- 访问：https://tryallapi.com/
 - 注册账号并充值（建议先充10-20元测试）
 - 在"API管理"页面创建API Key
 - 复制保存你的API Key（格式：sk-xxxxx）
@@ -272,7 +272,7 @@ nano ~/.clawdbot/clawdbot.json
     "mode": "merge",
     "providers": {
       "maynor": {
-        "baseUrl": "https://apipro.maynor1024.live",
+        "baseUrl": "https://tryallapi.com",
         "apiKey": "sk-你的API密钥",
         "auth": "api-key",
         "api": "anthropic-messages",
